@@ -1,0 +1,365 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px ;
+  font-family:  'Arial Narrow Bold', ;
+}
+
+.navbar a:hover {
+  
+  color: rgb(219, 204, 204);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+#home{
+  min-height:100vh ;
+  display: grid;
+  grid-template-columns:auto ;
+  background:linear-gradient(black,rgb(109, 16, 32),black) ;
+}
+
+.content{
+background:linear-gradient(black,rgb(109, 16, 32),black) ;
+display:grid;
+grid-template-columns:auto auto ;
+}
+.name{
+  
+  margin:60px ;
+}
+
+.name em{
+  font-family:cursive ;
+  color:rgb(109, 16, 32) ;
+  font-size:20px ;
+  
+}
+.name h1{
+  color: aliceblue;
+  font-size:6rem ;
+  font-weight: bold;
+}
+.name input{
+ height:50px ; 
+width:180px ;
+border-radius:20px ;
+border-color:rgb(109, 16, 32)  ;
+font-size:20px ;
+font-family:monospace ;
+}
+.name input:hover{
+  background-color:rgb(109, 16, 32)  ;
+  cursor: pointer;
+  color:white ;
+}
+
+#myimg{
+  height:600px ;
+  width:500px ;
+  background-image:url('niku.jpg') ;
+ background-position:center ;
+ background-size:cover ;
+ border-radius:50% ;
+  
+} 
+#myimg a{
+  color:rgb(109, 16, 32) ; ;
+}
+
+/* secound page */
+.content {
+  padding: 20px;
+}
+
+.about-me {
+  margin-bottom: 20px;
+}
+
+.about-me img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.about-me .bio {
+  margin-top: 10px;
+}
+#about{
+  min-height:100vh ;
+  display: grid;
+  grid-template-columns:auto  ;
+  background:linear-gradient(black,rgb(109, 16, 32),black)
+   ;
+   color:white ;
+   text-align: center;
+}
+#about a{
+  color:rgb(109, 16, 32) ; ;
+}
+.contents{
+  margin:20px ;
+  text-align:center ;
+  display: grid;
+  grid-template-columns:auto auto ;
+  /* background:linear-gradient(black,rgb(109, 16, 32),black)
+   ; */
+}
+#about h1{
+  font-size:3rem ;
+  font-weight: bold;
+
+}
+/* .about-me{
+  padding:70px ;
+} */
+#bio li{
+  list-style: none;
+  font-size:30px ;
+  line-height:50px ;
+  letter-spacing:2px ;
+  word-spacing: 1px;
+}
+.about-me h3{
+  font-size:40px ;
+}
+.about-me p{
+  font-size:20px ;
+  letter-spacing:2px ;
+  word-spacing: 1px;
+  line-height:30px ;
+}
+/* service section */
+
+#service{
+  min-height:100vh ;
+  background:linear-gradient(black,rgb(109, 16, 32),black)
+   ;
+   color:white ;
+   text-align: center;   
+}
+#service a{
+  color:rgb(109, 16, 32) ;
+}
+#service h1{
+font-size:3rem ;
+}
+.service{
+  display: grid;
+  grid-template-columns:auto auto auto auto ;
+  min-height:100vh ;
+  width:100% ;
+}
+.s1{
+  background:linear-gradient(rgb(109, 16, 32)),black,rgb(109, 16, 32) ;
+   margin:20px ;
+   text-align: center;
+   height:250px ;
+   width:300px ;
+   box-shadow:5px 5px 3px rgb(109, 16, 32);
+  border-radius:40px ; 
+  
+}
+.s1 h3{
+  /* margin-top:40px ; */
+  color:#f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+}
+.s1 p{
+  font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 600px) {
+  #service h1{
+    font-size:1rem ;
+    }
+   .s1 h3 {
+    color:#f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:10px ;
+  }
+}
+/* skill section */
+.conten {
+  padding: 20px;
+  display: grid;
+  grid-template-columns:auto auto ;
+}
+.s{
+  margin:30px ;
+
+}
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.progress {
+  background-color:gray;
+  border-radius: 5px;
+  margin-top: 5px;
+ 
+}
+#skill h1{
+  font-size:3rem ;
+  color:white ;
+
+}
+#skill a{
+  color: rgb(109, 16, 32);
+}
+.skill{
+  padding:30px ;
+}
+.progress-bar {
+  background-color:white;
+  height: 20px;
+  border-radius: 5px;
+  color: #f2f2f2;
+}
+.skill-name{
+  font-weight: bold;
+  color:white ;
+  font-size:30px ;
+}
+#skill{
+  text-align: center;
+  min-height:100vh ;
+  width:100% ;
+  background:linear-gradient(black,rgb(109, 16, 32),black)
+   ;
+}
+/* project section start */
+.conte {
+  padding: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#project{
+  text-align: center;
+  min-height:500px;
+  width:100% ;
+  background:linear-gradient(black,rgb(109, 16, 32),black)
+   ;
+}
+#project a{
+  color:rgb(109, 16, 32) ;
+}
+#project h1{
+  font-size:3rem ;
+  color:white ;
+}
+.project{
+  height: 450px;
+  width:500px ;
+  background-color:white;
+  position: relative;
+}
+#p1{
+  left:900px ;
+  bottom:50px ;
+}
+#p2{
+  left:100px ;
+  bottom: 300px; 
+  
+}
+#p3{
+  left:900px ;
+  bottom:300px ;
+}
+#p4{
+  left:100px ;
+  bottom:400px; 
+  
+}
+.project i{
+  font-size:30px ;
+  font-family: 'Courier New', Courier, monospace;
+}
+.project p{
+  font-size:20px ;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* project section end */
+
+/* contact page start */
+.cont {
+  padding: 20px;
+}
+#contact{
+  min-height:100vh ;
+  background:linear-gradient(black,rgb(109, 16, 32),black)
+   ;
+   color:white ;
+   text-align: center;
+}
+#contact a{
+  color:rgb(109, 16, 32) ;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form {
+  color:black;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left ;
+}
+#contact h1{
+  font-size:3rem ;
+}
+
+/* contact page end */
